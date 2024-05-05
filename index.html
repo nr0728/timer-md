@@ -57,13 +57,17 @@
     {
         position: absolute;
         top: 10px;
-        right: 10px;
+        right: 60px;
         text-align: right;
     }
     #modifyButton
     {
-        font-family: 'Google Sans';
-        margin-left: 5px;
+      font-family: 'Google Sans', Arial;
+      position: fixed;
+      top: 10px;
+      right: 15px;
+      width: 0px;
+      height: 0px;
     }
     #startButton
     {
@@ -118,13 +122,14 @@
       position: fixed;
       top: 10px;
       left: 10px;
+      width: 0px;
     }
     /* Style for language options */
     #language-options {
       font-family: 'Google Sans', Arial;
       display: none;
       position: fixed;
-      top: 50px;
+      top: 60px;
       left: 10px;
       background-color: #71c9ce;
       border: 1px solid #A2DFD0;
@@ -156,9 +161,9 @@
     <input type="text" id="minuteInput" placeholder="分钟（默认 5）" oninput="validateInput2(event)">
     <input type="text" id="secondInput" placeholder="秒（默认 0）" oninput="validateInput2(event)">
     <input type="text" id="millisecondInput" placeholder="毫秒（默认 0）" oninput="validateInput3(event)">
-    <button id="modifyButton" onclick="modifyTimer()" class="button button-glow button-rounded button-primary">保存</button>
+    <button id="modifyButton" onclick="modifyTimer()" class="button button-glow button-rounded button-primary"><img src="./image/save.png" width="45px"></img></button>
 </div>
-  <button id="language-switch" class="button button-glow button-rounded button-primary">Language</button>
+  <button id="language-switch" class="button button-glow button-rounded button-box button-primary button-large"><img src="./image/translate.png" width="45px"></img></button>
 
   <!-- Language options -->
   <div id="language-options">
