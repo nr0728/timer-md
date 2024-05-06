@@ -57,17 +57,13 @@
     {
         position: absolute;
         top: 10px;
-        right: 60px;
+        right: 10px;
         text-align: right;
     }
     #modifyButton
     {
-      font-family: 'Google Sans', Arial;
-      position: fixed;
-      top: 10px;
-      right: 15px;
-      width: 0px;
-      height: 0px;
+        font-family: 'Google Sans';
+        margin-left: 5px;
     }
     #startButton
     {
@@ -161,9 +157,9 @@
     <input type="text" id="minuteInput" placeholder="分钟（默认 5）" oninput="validateInput2(event)">
     <input type="text" id="secondInput" placeholder="秒（默认 0）" oninput="validateInput2(event)">
     <input type="text" id="millisecondInput" placeholder="毫秒（默认 0）" oninput="validateInput3(event)">
-    <button id="modifyButton" onclick="modifyTimer()" class="button button-glow button-rounded button-primary"><img src="./image/save.png" width="45px"></img></button>
+    <button id="modifyButton" onclick="modifyTimer()" class="button button-glow button-rounded button-primary">保存</button>
 </div>
-  <button id="language-switch" class="button button-glow button-rounded button-box button-primary button-large"><img src="./image/translate.png" width="45px"></img></button>
+<button id="language-switch" class="button button-glow button-rounded button-box button-primary button-large"><img src="./image/translate.png" width="45px"></img></button>
 
   <!-- Language options -->
   <div id="language-options">
