@@ -1,6 +1,6 @@
-# Timer
+## Timer
 
-## An easy timer with user-friendly UI & rich features made by HTML, JavaScript and CSS.
+An easy timer with user-friendly UI & rich features made by HTML, JavaScript and CSS.
 
 
 <h2>Made by</h2>
